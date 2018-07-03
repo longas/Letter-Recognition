@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Letter Recognition</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,700|Roboto:300,400,700" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row header">
+            <h1>Letter Recognition</h1>
+            <h2>Convolutional Neural Network with tensorflow.js</h2>
+        </div>
+        <div class="row">
+            <div class="col canvas">
+                <canvas id="canvas"></canvas>
+                <button id="clear-canvas">Clear</button>
+            </div>
+            <div class="col info">
+                <h3>Prediction</h3>
+                <p id="predicted-letter">Draw an uppercase letter</p>
+                <h3>Top 3</h3>
+                <p id="top3-letter"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.2"></script>
+    <script src="js/paint.js"></script>
+    <script src="js/predicter.js"></script>
+</body>
+
+</html>
