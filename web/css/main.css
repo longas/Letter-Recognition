@@ -31,6 +31,16 @@ h3 {
     color: #cecece;
 }
 
+a {
+    text-decoration: none;
+    color: #cecece;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .container {
     width: 750px;
     margin-top: 50px;
@@ -86,4 +96,10 @@ h3 {
 #top3-letter span {
     font-weight: 400;
     color: #65bef0;
+}
+
+.github {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 300;
 }
